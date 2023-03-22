@@ -1,0 +1,35 @@
+div.content {
+  height: 100px;
+  width: 900px;
+  border: 5px solid #000000;
+  font-size: 40px;
+  text-align: center;
+  margin: 30px;
+  float: left;
+}
+
+div#one {
+  background-color: #ff0000;
+}
+
+div#two {
+  background-color: rgb(206, 2, 2);
+}
+
+div#three {
+  background-color: tomato;
+  color: antiquewhite;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-image: url("images/money.jpg");
+
+  a:link {
+    color: #ad1010;
+  }
+  a:visited {
+    color: chartreuse;
+  }
+}
